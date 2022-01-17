@@ -6,11 +6,11 @@ This example is that *Setting create_time automatically when commit update or in
 
 These are key abilities we should use:
 
-- Annotation, label a propert of a class then the propert will be changed to Date when the class was instance and insert or update to MySql.
+- Annotation, label a property of a class then the property will be changed to Date when the class was instance and insert or update to MySql.
 - Interceptor, MyBatis' interceptor can change some behaviors when inserting or updating to MySql.
 - Executor, MyBatis's executor is the key component in MyBatis that executing the query, insert and update commands to MySql. 
 - SqlCommandType, MyBatis's SqlCommandType can indicate which behavior will be intercepted, inserting or updating.
-- Field, a propert of a object.
+- Field, a property of a object.
 
 ### 1. Create a Annotation
 
