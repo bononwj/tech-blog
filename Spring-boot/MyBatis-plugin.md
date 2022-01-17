@@ -138,3 +138,18 @@ public GenerateTimeInterceptor generateTimeIntercepter() {
   return new GenerateTimeInterceptor();
 }
 ```
+
+### 7. Label a Field
+> entity.Menu
+``` java
+public class Menu {
+  private Integer id;
+  private String name;
+
+  @CreateTime
+  private Date createTime;
+
+  @UpdateTime
+  private Date updateTime;
+}
+```
